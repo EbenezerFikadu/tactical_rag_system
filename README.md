@@ -1,5 +1,4 @@
-# Create a professional README.md file
-readme_content = """# Tactical Document Retrieval and Q&A System
+# Tactical Document Retrieval and Q&A System
 
 A secure, knowledge-grounded chatbot that allows personnel to query tactical manuals, SOPs, and equipment documentation without hallucination.
 
