@@ -1,0 +1,8 @@
+sentence-transformers
+chromadb
+transformers
+accelerate
+bitsandbytes
+torch
+numpy
+pypdf
