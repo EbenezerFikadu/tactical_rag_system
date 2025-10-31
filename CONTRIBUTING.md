@@ -85,11 +85,3 @@ for file_path in project_root.rglob('*'):
     if file_path.is_file():
         relative_path = file_path.relative_to(project_root)
         print(f"  {relative_path}")
-
-print("\n🎉 Your project is now GitHub-ready!")
-print("\n📝 Next steps on GitHub:")
-print("1. Create a new repository on GitHub")
-print("2. Upload the entire tactical_rag_system folder")
-print("3. Edit the README.md to replace 'yourusername' with your actual GitHub username")
-print("4. Update the email and support information")
-print("5. Add project-specific details and examples")
