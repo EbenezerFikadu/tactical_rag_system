@@ -39,7 +39,6 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 
 ## License
 By contributing, you agree that your contributions will be licensed under its MIT License.
-"""
 
 contributing_path = "/content/tactical_rag_system/docs/CONTRIBUTING.md"
 Path(contributing_path).parent.mkdir(parents=True, exist_ok=True)
@@ -47,9 +46,9 @@ with open(contributing_path, 'w') as f:
     f.write(contributing_content)
 
 # Creating LICENSE file
-license_content = """MIT License
+license_content = MIT License
 
-Copyright (c) 2024 Tactical RAG System
+Copyright (c) 2025 Tactical RAG System
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -74,12 +73,8 @@ license_path = "/content/tactical_rag_system/LICENSE"
 with open(license_path, 'w') as f:
     f.write(license_content)
 
-print("✅ Additional documentation files created!")
-print("📁 CONTRIBUTING.md - For contribution guidelines")
-print("📁 LICENSE - MIT License file")
 
 # Final project structure verification
-print("\n📂 FINAL PROJECT STRUCTURE:")
 project_root = Path("/content/tactical_rag_system")
 for file_path in project_root.rglob('*'):
     if file_path.is_file():
